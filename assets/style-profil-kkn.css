@@ -255,8 +255,8 @@ a>.fas {
 }
 
 .content-body>div img {
-    width: 100%;
-    max-width: 150px;
+    width: 75%;
+    max-width: 125px;
     height: auto;
 }
 
