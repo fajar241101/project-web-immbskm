@@ -79,11 +79,11 @@ ul {
 
 .navbar li a:hover,
 .dropdown:hover>a {
-    color: #338A94;
+    color: #800000;
 }
 
 .active-navbar {
-    color: #338A94 !important;
+    color: #800000 !important;
 }
 
 .dropdown:hover a .fas {
@@ -154,7 +154,7 @@ a>.fas {
 
 .change {
     transition: 0.5s;
-    background-color: #338A94;
+    background-color: #800000;
 }
 
 .change .bar:nth-child(2) {
@@ -207,7 +207,7 @@ title>h2 {
 
 .title1>h1:nth-child(2) {
     font-size: 50px;
-    color: #338A94;
+    color: #800000;
 }
 
 .title1>p {
@@ -269,7 +269,7 @@ a {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
-    text-align: justify;
+    text-align: center;
 }
 
 .img-container {
@@ -296,6 +296,12 @@ b {
 .column2 {
     flex: 20%;
     max-width: 20%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.columncard {
+    flex: 40%;
+    max-width: 50%;
     margin-bottom: 2%;
     margin-top: 2%;
 }
@@ -349,7 +355,7 @@ b {
     margin-left: auto;
     display: block;
     position: relative;
-    background-color: #338A94;
+    background-color: #800000;
     border-radius: 20px;
     color: #fff;
 }
@@ -357,7 +363,7 @@ b {
 .subtitle {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -380,9 +386,9 @@ b {
 }
 
 .logo2 {
-    max-width: 150px;
+    max-width: 300px;
     position: absolute;
-    top: 100%;
+    top: 70%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -397,7 +403,7 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #338A94;
+    background-color: #800000;
     color: #fff;
     margin-top: 75px;
 }
@@ -893,6 +899,6 @@ footer {
         height: 90px;
     }
     .logo2 {
-        width: 45px;
+        width: 500px;
     }
 }

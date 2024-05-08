@@ -86,11 +86,11 @@ ul {
 
 .navbar li a:hover,
 .dropdown:hover>a {
-    color: #338A94;
+    color: #800000;
 }
 
 .active-navbar {
-    color: #338A94 !important;
+    color: #800000 !important;
 }
 
 .dropdown:hover a .fas {
@@ -161,7 +161,7 @@ a>.fas {
 
 .change {
     transition: 0.5s;
-    background-color: #338A94;
+    background-color: #800000;
 }
 
 .change .bar:nth-child(2) {
@@ -268,8 +268,8 @@ a>.fas {
 
 .sub-sub-title {
     text-align: center;
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     padding: 10px;
     color: #222;
     margin-left: auto;
@@ -282,6 +282,27 @@ a>.fas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.column4first {
+    flex: 1 0 33.33%; /* Adjust width as needed */
+    max-width: 75%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+}
+.column4second {
+    flex: 1 0 33.33%; /* Adjust width as needed */
+    max-width: 75%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: auto;
 }
 
 .column2 {
@@ -405,7 +426,7 @@ a>.fas {
 }
 
 .content-body1>a:hover {
-    background-color: #338A94;
+    background-color: #800000;
 }
 
 footer {
@@ -413,7 +434,7 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #338A94;
+    background-color: #800000;
     color: #fff;
     margin-top: 75px;
 }

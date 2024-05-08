@@ -79,11 +79,11 @@ ul {
 
 .navbar li a:hover,
 .dropdown:hover>a {
-    color: #338A94;
+    color: #800000;
 }
 
 .active-navbar {
-    color: #338A94 !important;
+    color: #800000 !important;
 }
 
 .dropdown:hover a .fas {
@@ -154,7 +154,7 @@ a>.fas {
 
 .change {
     transition: 0.5s;
-    background-color: #338A94;
+    background-color: #800000;
 }
 
 .change .bar:nth-child(2) {
@@ -255,7 +255,7 @@ span {
 .icon>.fas,
 .icon>.fab {
     margin-right: 30px;
-    background-color: #338A94;
+    background-color: #800000;
     border: 2px solid #222;
     width: 34px;
     height: 34px;
@@ -280,7 +280,7 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #338A94;
+    background-color: #800000;
     color: #fff;
     margin-top: 75px;
 }

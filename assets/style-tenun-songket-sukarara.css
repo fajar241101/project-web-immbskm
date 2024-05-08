@@ -76,11 +76,11 @@ ul {
 
 .navbar li a:hover,
 .dropdown:hover>a {
-    color: #338A94;
+    color: #800000;
 }
 
 .active-navbar {
-    color: #338A94 !important;
+    color: #800000 !important;
 }
 
 .dropdown:hover a .fas {
@@ -149,7 +149,7 @@ ul {
 
 .change {
     transition: 0.5s;
-    background-color: #338A94;
+    background-color: #800000;
 }
 
 .change .bar:nth-child(2) {
@@ -243,7 +243,7 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #338A94;
+    background-color: #800000;
     color: #fff;
     margin-top: 75px;
 }
